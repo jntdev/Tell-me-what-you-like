@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'arcadepixregular';
+    src: url('font/arcadepi-webfont.woff2') format('woff2'), url('font/arcadepi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.middle {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: -20%;
+    margin-left: 65%;
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 300px;
+    height: 350px;
+    color: rgb(255, 255, 255);
+    border: solid rgba(255, 208, 0, 0.459) 2px;
+    overflow: auto;
+}
+
+.half {
+    width: 40px;
+    height: 40px;
+}
+
+.boiboite {
+    background-image: url(/img/869.jpg);
+    width: 1920px;
+    height: 950px;
+}
+
+.txtbox {
+    border: solid red;
+    margin-top: 50%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.choose {
+    margin-left: 15%;
+    margin-top: 30%;
+}
+
+.button {
+    width: 200px;
+}
+
+.number {
+    border: solid 5px;
+    margin-right: 1px;
+}
+
+.font {
+    font-family: 'arcadepixregular';
+}
+
+.label {
+    position: relative;
+    font-size: 40px;
+}
+
+.txtbox {
+    margin-top: 40px;
+}
+
+h2 {
+    position: relative;
+    margin-top: -250px;
+    color: rgb(240, 197, 140);
+    font-size: 30px;
+}
